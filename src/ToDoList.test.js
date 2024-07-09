@@ -14,7 +14,7 @@ test("Renders Empty List div", () => {
     const taskHeaderElement = screen.getByText("Task");
     expect(taskHeaderElement).toBeInTheDocument();
   
-    const priorityHeaderElement = screen.getByText("Priorityx");
+    const priorityHeaderElement = screen.getByText("Priority");
     expect(priorityHeaderElement).toBeInTheDocument();
   
     const taskElement = screen.getByText("write test");
